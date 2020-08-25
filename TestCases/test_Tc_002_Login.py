@@ -1,10 +1,25 @@
-from selenium.webdriver.support.select import Select
-from Base import InitiateDriver
-from Library import ConfigReader
-from Pages import RegistrationPage
 import pytest
 import openpyxl
+from Base import InitiateDriver
+from selenium import webdriver
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+def test_222():
+    '''driver = webdriver.Chrome(executable_path='C:/pychWork/Practise/driver/chromedriver.exe')
+    import time
+    driver.get("https://www.thetestingworld.com/testings/")'''
 
+    driver = InitiateDriver.startBrowser()
+    driver.maximize_window()
+    print("Text on link is  :: " +driver.find_element_by_class_name("displayPopup").text)
+
+    print("value of :: "+driver.find_element_by_xpath("//input[@type='submit']").get_attribute("type"))
+    InitiateDriver.closeBrowser()
+
+
+
+'''
 def datagenrator():
 
     vk=openpyxl.load_workbook("D:/Workspace/EndToEnd/file/TD10.xlsx")
@@ -31,3 +46,5 @@ def test_ValidateRegistration(data):
     Register.enter_email(data[1])
     Register.enter_Dob(data[2])
     InitiateDriver.closeBrowser()
+
+'''
