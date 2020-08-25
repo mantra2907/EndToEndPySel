@@ -1,0 +1,10 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 26 00:03:30 IST 2020","Wed Aug 26 00:03:37 IST 2020","7306","TestCases","test_Tc_001_Registration_ValidData","","","","test_ValidateRegistration[data1]",""
+"passed","Wed Aug 26 00:04:11 IST 2020","Wed Aug 26 00:04:26 IST 2020","14898","TestCases","test_Tc_005","","","","test_sixth",""
+"passed","Wed Aug 26 00:03:59 IST 2020","Wed Aug 26 00:04:11 IST 2020","12040","TestCases","test_Tc_004","","","","test_fourth",""
+"passed","Wed Aug 26 00:03:52 IST 2020","Wed Aug 26 00:03:59 IST 2020","6986","TestCases","test_Tc_003","","","","test_third",""
+"passed","Wed Aug 26 00:03:37 IST 2020","Wed Aug 26 00:03:45 IST 2020","7533","TestCases","test_Tc_001_Registration_ValidData","","","","test_ValidateRegistration[data2]",""
+"passed","Wed Aug 26 00:03:45 IST 2020","Wed Aug 26 00:03:52 IST 2020","7147","TestCases","test_Tc_002_Login","","","","test_222","driver = webdriver.Chrome(executable_path='C:/pychWork/Practise/driver/chromedriver.exe')
+    import time
+    driver.get(""https://www.thetestingworld.com/testings/"")"
+"passed","Wed Aug 26 00:03:23 IST 2020","Wed Aug 26 00:03:30 IST 2020","7406","TestCases","test_Tc_001_Registration_ValidData","","","","test_ValidateRegistration[data0]",""

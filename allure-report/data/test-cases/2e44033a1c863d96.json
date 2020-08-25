@@ -1,0 +1,72 @@
+{
+  "uid" : "2e44033a1c863d96",
+  "name" : "test_ValidateRegistration[data1]",
+  "fullName" : "TestCases.test_Tc_001_Registration_ValidData#test_ValidateRegistration",
+  "historyId" : "0995293fa761cc456d52c11b63c38eac",
+  "time" : {
+    "start" : 1598380410546,
+    "stop" : 1598380417852,
+    "duration" : 7306
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7dd412e2c511e52b",
+      "name" : "stdout",
+      "source" : "7dd412e2c511e52b.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tc_001_Registration_ValidData"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-US7NJMNJ"
+  }, {
+    "name" : "thread",
+    "value" : "15808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_Tc_001_Registration_ValidData"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "['ab', 'ab@com', '07/29/2001']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e44033a1c863d96.json",
+  "parameterValues" : [ "['ab', 'ab@com', '07/29/2001']" ]
+}

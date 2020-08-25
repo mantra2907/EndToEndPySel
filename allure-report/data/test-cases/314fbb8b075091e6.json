@@ -1,0 +1,72 @@
+{
+  "uid" : "314fbb8b075091e6",
+  "name" : "test_222",
+  "fullName" : "TestCases.test_Tc_002_Login#test_222",
+  "historyId" : "d910b27685e952d92fa8e67cda8eb059",
+  "time" : {
+    "start" : 1598380425408,
+    "stop" : 1598380432555,
+    "duration" : 7147
+  },
+  "description" : "driver = webdriver.Chrome(executable_path='C:/pychWork/Practise/driver/chromedriver.exe')\n    import time\n    driver.get(\"https://www.thetestingworld.com/testings/\")",
+  "descriptionHtml" : "<p>driver = webdriver.Chrome(executable_path='C:/pychWork/Practise/driver/chromedriver.exe')\nimport time\ndriver.get(&quot;https://www.thetestingworld.com/testings/&quot;)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "driver = webdriver.Chrome(executable_path='C:/pychWork/Practise/driver/chromedriver.exe')\n    import time\n    driver.get(\"https://www.thetestingworld.com/testings/\")",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df8d7fe009b8834e",
+      "name" : "stdout",
+      "source" : "df8d7fe009b8834e.txt",
+      "type" : "text/plain",
+      "size" : 105
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tc_002_Login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-US7NJMNJ"
+  }, {
+    "name" : "thread",
+    "value" : "15808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_Tc_002_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "314fbb8b075091e6.json",
+  "parameterValues" : [ ]
+}
