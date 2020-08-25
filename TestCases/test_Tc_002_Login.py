@@ -1,10 +1,6 @@
-import pytest
-import openpyxl
+
 from Base import InitiateDriver
-from selenium import webdriver
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
+
 def test_222():
     '''driver = webdriver.Chrome(executable_path='C:/pychWork/Practise/driver/chromedriver.exe')
     import time
